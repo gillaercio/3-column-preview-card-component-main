@@ -1,0 +1,85 @@
+body {
+  height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Very-light-gray);
+}
+
+#content {
+  max-width: 90vw;
+  
+  .card-car {
+    padding: 50px;
+  }
+
+  .model-car {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font: var(--text-headings);
+    color: var(--Very-light-gray);
+  }
+
+  .sedan-model {
+    background-color: var(--Bright-orange);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    .button-car {
+      color: var(--Bright-orange);
+    }
+
+    .button-car:hover {
+      background-color: var(--Bright-orange);
+    }
+  }
+
+  .suv-model {
+    background-color: var(--Dark-cyan);
+
+    .button-car {
+      color: var(--Dark-cyan);
+    }
+
+    .button-car:hover {
+      background-color: var(--Dark-cyan);
+    }
+  }
+
+  .luxury-model {
+    background-color: var(--Very-dark-cyan);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    .button-car {
+      color: var(--Very-dark-cyan);
+    }
+
+    .button-car:hover {
+      background-color: var(--Very-dark-cyan);
+    }
+  }
+
+  .description-car {
+    color: var(--Transparent-white);
+    margin-block: 20px;
+  }
+
+  .description-car, .button-car {
+    font: var(--text-paragraph);
+  }
+
+  .button-car {
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--Very-light-gray);
+    border: 2px solid transparent;
+  }
+
+  .button-car:hover {
+    color: var(--Transparent-white);
+    border-color: var(--Transparent-white);
+  }
+}

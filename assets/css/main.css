@@ -83,3 +83,47 @@ body {
     border-color: var(--Transparent-white);
   }
 }
+
+@media screen and (min-width: 996px) {
+  #content {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 0;
+
+    .card-car {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .sedan-model {
+      border-top-right-radius: 0;
+      border-bottom-left-radius: 10px;
+    }
+
+    .luxury-model {
+      border-top-right-radius: 10px;
+      border-bottom-left-radius: 0;
+    }
+
+    img {
+      max-width: 90px;
+    }
+
+    .model-car {
+      margin-top: 40px;
+      font-size: clamp(3rem, 3rem + 1.1662vw, 3.8rem);
+    }
+
+    .description-car {
+      margin-bottom: 100px;
+      font-size: clamp(1.5rem, 1.7rem + 1.1662vw, 2.3rem);
+    }
+    
+    .button-car {
+      width: 175px;
+      font-size: clamp(1.5rem, 1.3rem + 1.1662vw, 1.9rem);
+      margin-top: auto;
+    }
+  }
+}

@@ -107,17 +107,17 @@ body {
     }
 
     img {
-      max-width: 90px;
+      max-width: 60px;
     }
 
     .model-car {
-      margin-top: 40px;
-      font-size: clamp(3rem, 3rem + 1.1662vw, 3.8rem);
+      margin-top: 30px;
+      font-size: clamp(3rem, 2.8rem + 1.1662vw, 3.4rem);
     }
 
     .description-car {
-      margin-bottom: 100px;
-      font-size: clamp(1.5rem, 1.7rem + 1.1662vw, 2.3rem);
+      margin-bottom: 60px;
+      font-size: clamp(1.5rem, 1.3rem + 1.1662vw, 1.9rem);
     }
     
     .button-car {
